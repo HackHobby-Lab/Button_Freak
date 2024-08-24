@@ -13,11 +13,9 @@
 #define TFT_CS 6
 #define TFT_RST 20
 #define TFT_BL -1
-#define TFT_SC 16
 
 const int screenWidth = 240;
 const int screenHeight = 320;
-
 
 // Global Variables
 DFRobot_ST7789_240x320_HW_SPI tft(/*dc=*/TFT_DC, /*cs=*/TFT_CS, /*rst=*/TFT_RST);
@@ -42,42 +40,13 @@ void setup() {
     Serial.begin(115200);
     pinMode(leftBtn, INPUT);
     pinMode(buzzer, OUTPUT);
-      if (!SD.begin(TFT_SC)) {
-    Serial.println("SD Card initialization failed!");
-    return;
-  }
-  Serial.println("SD Card initialized.");
     tft.begin();
     tft.setRotation(0);
     tft.fillScreen(COLOR_RGB565_BLACK);
     displayMenu();
-    //tft.fillRect(0, 0, 240, 60, COLOR_RGB565_BLACK); // Clear only the title area
-    // tft.setTextSize(3);
-    // tft.setCursor(240 / 2 - 100, 0);
-    
-    // tft.setTextColor(COLOR_RGB565_YELLOW);
-    // tft.println("ButtonFreak");
+    tft.drawBitmap(70, 250, bounce, 32, 32, COLOR_RGB565_YELLOW);
+    tft.drawBitmap(120, 250, snakeio, 32, 32, COLOR_RGB565_YELLOW);
 
-      File iconFile = SD.open("bounce.bmp");
-  if (!iconFile) {
-    Serial.println("Failed to open the file!");
-    return;
-  }
-
-  // Read the bitmap header
-  uint16_t imageWidth, imageHeight;
-  iconFile.seek(18); // Seek to width/height bytes in the BMP file
-  imageWidth = iconFile.read() | (iconFile.read() << 8);
-  imageHeight = iconFile.read() | (iconFile.read() << 8);
-
-  // Set position and draw
-  int x = (tft.width() - imageWidth) / 2;
-  int y = (tft.height() - imageHeight) / 2;
-  
-  //tft.drawBitmap(x, y, iconFile, imageWidth, imageHeight);
-
-  iconFile.close();
-  delay(5000); // Display for 5 seconds
 }
 
 void loop() {
@@ -148,8 +117,8 @@ void displayMenu() {
         tft.setTextColor(COLOR_RGB565_BLACK);
         tft.print("Snake Hunt ");
         tft.print("<");
-        tft.fillRect(95, 245, 45, 45, COLOR_RGB565_BLACK);
-        tft.drawBitmap(100, 250, bounce, 32, 32, COLOR_RGB565_YELLOW);
+        tft.fillRect(15, 245, 150, 45, COLOR_RGB565_BLACK);
+        tft.drawBitmap(100, 250, snakeio, 32, 32, COLOR_RGB565_YELLOW);
     } else {
         tft.print("Snake Hunt ");
     }
@@ -163,12 +132,12 @@ void displayMenu() {
         tft.print("Bounce Ball ");
         tft.print("<");
         tft.fillRect(95, 245, 45, 45, COLOR_RGB565_BLACK);
-        tft.drawBitmap(100, 250, snakeio, 32, 32, COLOR_RGB565_YELLOW);
+        tft.drawBitmap(100, 250, bounce, 32, 32, COLOR_RGB565_YELLOW);
     } else {
         tft.print("Bounce Ball ");
     }
 
-    if (selectedGame == 0) tft.fillRect(95, 245, 40, 40, COLOR_RGB565_BLACK);
+    if (selectedGame == 0) tft.fillRect(15, 245, 150, 40, COLOR_RGB565_BLACK);
 
     // Add a footer or decorative elements if desired
     tft.drawFastHLine(0, 215, 240, COLOR_RGB565_GREEN);

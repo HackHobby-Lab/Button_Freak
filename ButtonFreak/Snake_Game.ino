@@ -66,11 +66,12 @@ void snakeHunt() {
     tft.setTextColor(COLOR_RGB565_YELLOW);
     tft.println(scores);
     tone(buzzer,  1000, 100);
-    delay(2000);
+    delay(3000);
     noTone(buzzer);
     scores = 0;
     tft.fillScreen(COLOR_RGB565_BLACK);
     currentState = MENU;
+    selectedGame = 0;
     displayMenu();
     return;
     // displayMenu();

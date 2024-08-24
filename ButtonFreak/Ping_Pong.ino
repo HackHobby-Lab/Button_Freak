@@ -73,9 +73,10 @@ void bounceBall() {
     tft.setTextColor(COLOR_RGB565_YELLOW);
     tft.println(points);
     tone(buzzer, 1000, 100);
-    delay(20);
+    delay(3000);
     tft.fillScreen(COLOR_RGB565_BLACK);
     currentState = MENU;
+    selectedGame = 0;
     displayMenu();
     return;
     gameOver = false;
