@@ -66,7 +66,8 @@ o	Connect the buttons and buzzer to the ESP32 according to the circuit diagram p
 1.	Clone the Repository:
 bash
 Copy code
-```bash git clone https://github.com/hackhobby-lab/button-freak.git
+```bash
+git clone https://github.com/hackhobby-lab/button-freak.git
 cd button-freak 
 
 ```
