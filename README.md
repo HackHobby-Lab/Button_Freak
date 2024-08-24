@@ -1,0 +1,75 @@
+Button Freak: ESP32 Game Console
+Welcome to the Button Freak project! This is a DIY game console built on the ESP32 FireBeetle, featuring two classic games: Snake and Bouncing Ball. This project demonstrates how to create a simple game console with a retro feel using modern microcontroller technology.
+
+<!-- Replace with an image of your project -->
+
+Features
+Games: Includes Snake and Bouncing Ball.
+Display: High-quality 320x240 IPS LCD.
+Controls: Multiple buttons for gameplay.
+Audio: Built-in buzzer for sound effects.
+Materials
+Hardware
+ESP32 FireBeetle: The microcontroller used for the project.
+Display: 320x240 IPS LCD (or your specific model).
+Buttons: Multiple buttons for controlling the games.
+Buzzer: For sound effects.
+Power Supply: Battery or USB power source.
+Software
+Development Environment: Arduino IDE or PlatformIO.
+Libraries:
+DFRobot_GDL - For display handling.
+Any other libraries required for game logic or sound.
+Getting Started
+Prerequisites
+Install the Development Environment:
+
+Arduino IDE or PlatformIO for coding.
+Set up the ESP32 board in your IDE.
+Install Required Libraries:
+
+Install the DFRobot_GDL library through the Library Manager or by downloading it from GitHub.
+Wiring
+Connect the Display:
+
+Connect the display to the ESP32 using the provided wiring instructions. Ensure all connections are secure.
+Connect the Buttons and Buzzer:
+
+Connect the buttons and buzzer to the ESP32 according to the circuit diagram provided.
+Code
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/button-freak.git
+cd button-freak
+Open the Project:
+
+Open the project in your Arduino IDE or PlatformIO.
+Upload the Code:
+
+Select the correct board and port in your IDE.
+Upload the code to the ESP32.
+How It Works
+Main Menu: Navigate through the main menu using the buttons to select between Snake and Bouncing Ball.
+Snake Game: Control the snake using the buttons, navigate the screen, and avoid collisions to achieve a high score.
+Bouncing Ball: Use the buttons to control the paddle and bounce the ball to score points.
+Troubleshooting
+Display Issues: Check wiring connections and ensure the display library is correctly installed.
+Button Response: Ensure buttons are wired correctly and debounce logic is implemented if needed.
+Sound Problems: Verify buzzer connections and sound library functions.
+Customization
+Add More Games: You can extend the project by adding additional games or features.
+Modify Controls: Adjust button mappings or add new control options.
+Contribution
+Feel free to contribute to the project by submitting issues or pull requests. If you have ideas for improvements or new features, I'd love to hear them!
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgements
+Special thanks to the open-source community and libraries that made this project possible.
+Contact
+For any questions or feedback, please contact me at [your email address] or open an issue on GitHub.
+
+Replace placeholders like path_to_your_image.png, https://github.com/yourusername/button-freak.git, and [your email address] with the actual details for your project. If you have any specific sections or details to add, let me know!
