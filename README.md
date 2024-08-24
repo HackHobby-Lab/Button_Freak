@@ -30,7 +30,7 @@ Welcome to the Button Freak project! This is a DIY game console built on the ESP
 
 •	Display: 320x240 IPS LCD.
 
-•	Buttons: Multiple buttons for controlling the games.
+•	Buttons: Single button for controlling the games.
 
 •	Buzzer: For sound effects.
 
@@ -41,13 +41,11 @@ Welcome to the Button Freak project! This is a DIY game console built on the ESP
 **Software**
 
 
-•	Development Environment: Arduino IDE or PlatformIO.
+•	Development Environment: Arduino IDE.
 
 •	Libraries:
 
 o	DFRobot_GDL - For display handling.
-
-o	Any other libraries required for game logic or sound.
 
 
 
@@ -59,7 +57,7 @@ o	Any other libraries required for game logic or sound.
 
 1.	Install the Development Environment:
 
-o	Arduino IDE or PlatformIO for coding.
+o	Arduino IDE for coding.
 
 o	Set up the ESP32 board in your IDE.
 
@@ -95,7 +93,7 @@ cd button-freak
 
 2.	Open the Project:
 
-o	Open the project in your Arduino IDE or PlatformIO.
+o	Open the project in your Arduino IDE.
 
 3.	Upload the Code:
 
@@ -111,9 +109,9 @@ o	Upload the code to the ESP32.
 
 •	Main Menu: Navigate through the main menu using the buttons to select between Snake and Bouncing Ball.
 
-•	Snake Game: Control the snake using the buttons, navigate the screen, and avoid collisions to achieve a high score.
+•	Snake Game: Control the snake using the button, navigate the screen, and avoid collisions to achieve a high score.
 
-•	Bouncing Ball: Use the buttons to control the paddle and bounce the ball to score points.
+•	Bouncing Ball: Use the button to control the paddle and bounce the ball to score points.
 
 
 **Troubleshooting**
@@ -121,9 +119,9 @@ o	Upload the code to the ESP32.
 
 •	Display Issues: Check wiring connections and ensure the display library is correctly installed.
 
-•	Button Response: Ensure buttons are wired correctly and debounce logic is implemented if needed.
+•	Button Response: Ensure button is wired correctly.
 
-•	Sound Problems: Verify buzzer connections and sound library functions.
+•	Sound Problems: Verify buzzer connections and sound.
 
 
 **Customization**
