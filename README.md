@@ -16,7 +16,7 @@ Welcome to the Button Freak project! This is a DIY game console built on the ESP
 
 •	Controls: Multiple buttons for gameplay.
 
-•	Audio: Built-in buzzer for sound effects.
+•	Audio: Buzzer for sound effects.
 
 
 
@@ -28,7 +28,7 @@ Welcome to the Button Freak project! This is a DIY game console built on the ESP
 
 •	ESP32 FireBeetle: The microcontroller used for the project.
 
-•	Display: 320x240 IPS LCD (or your specific model).
+•	Display: 320x240 IPS LCD.
 
 •	Buttons: Multiple buttons for controlling the games.
 
@@ -88,7 +88,7 @@ o	Connect the buttons and buzzer to the ESP32 according to the circuit diagram p
 bash
 Copy code
 ```bash
-git clone https://github.com/hackhobby-lab/button-freak.git
+git clone https://github.com/hackhobby-lab/button_freak.git
 cd button-freak 
 
 ```
@@ -143,6 +143,6 @@ Feel free to contribute to the project by submitting issues or pull requests. If
 **Contact**
 
 
-For any questions or feedback, please contact me at [hamza78685@outlook.com] or open an issue on GitHub [https://github.com/hackhobby-lab/button-freak.git].
+For any questions or feedback, please contact me at [hamza78685@outlook.com] or open an issue on GitHub [https://github.com/hackhobby-lab/button_freak.git].
 If you have any specific sections or details to add, let me know!
 
