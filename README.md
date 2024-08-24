@@ -14,7 +14,7 @@ Welcome to the Button Freak project! This is a DIY game console built on the ESP
 
 •	Display: High-quality 320x240 IPS LCD.
 
-•	Controls: Multiple buttons for gameplay.
+•	Controls: Single button for gameplay.
 
 •	Audio: Buzzer for sound effects.
 
