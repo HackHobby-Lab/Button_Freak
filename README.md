@@ -5,6 +5,7 @@ Welcome to the Button Freak project! This is a DIY game console built on the ESP
 
 <!-- Replace with an image of your project -->
 
+![cOVER](https://github.com/user-attachments/assets/aa5de0c7-985e-4ebf-b327-b514187e0488)
 
 **Features**
 
@@ -114,6 +115,10 @@ o	Upload the code to the ESP32.
 •	Bouncing Ball: Use the button to control the paddle and bounce the ball to score points.
 
 
+![Menu Mechanics](https://github.com/user-attachments/assets/e5faf5e7-febf-4098-b804-da91a8427482)
+
+
+
 **Troubleshooting**
 
 
@@ -136,6 +141,10 @@ o	Upload the code to the ESP32.
 
 
 Feel free to contribute to the project by submitting issues or pull requests. If you have ideas for improvements or new features, I'd love to hear them!
+
+**Tutorials**
+
+[Find me on Instructables](https://www.instructables.com/Button-Freak-DIY-ESP32-Game-Console-Make-Yours-Now/) 
 
 
 **Contact**
