@@ -1,4 +1,4 @@
-# <span style="color: #3498db;">Button Freak: ESP32 Game Console</span>
+# Button Freak: ESP32 Game Console
 
 
 Welcome to the Button Freak project! This is a DIY game console built on the ESP32 FireBeetle, featuring two classic games: Snake and Bouncing Ball. This project demonstrates how to create a simple game console with a retro feel using modern microcontroller technology.
@@ -149,6 +149,6 @@ Feel free to contribute to the project by submitting issues or pull requests. If
 ## Contact
 
 
-For any questions or feedback, please contact me at [hamza78685@outlook.com] or open an issue on GitHub [https://github.com/hackhobby-lab/button_freak.git].
+For any questions or feedback, please contact me at [Email-Outlook](hamza78685@outlook.com) or open an issue on GitHub [https://github.com/hackhobby-lab/button_freak.git].
 If you have any specific sections or details to add, let me know!
 
