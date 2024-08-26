@@ -147,6 +147,8 @@ Feel free to contribute to the project by submitting issues or pull requests. If
 
 [DfRobot Community](https://community.dfrobot.com/makelog-314524.html)
 
+[Me on Hackster.io](https://www.hackster.io/Hackhobby_Lab/button-freak-diy-esp32-game-console-make-yours-now-6681fa)
+
 
 
 
