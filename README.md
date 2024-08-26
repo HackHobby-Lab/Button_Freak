@@ -145,6 +145,10 @@ Feel free to contribute to the project by submitting issues or pull requests. If
 
 [Find me on Instructables](https://www.instructables.com/Button-Freak-DIY-ESP32-Game-Console-Make-Yours-Now/) 
 
+[DfRobot Community](https://community.dfrobot.com/makelog-314524.html)
+
+
+
 
 ## Contact
 
